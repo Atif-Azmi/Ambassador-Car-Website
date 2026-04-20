@@ -44,8 +44,9 @@ export default defineConfig({
       strict: false, // Changed to false to prevent 'deny' errors while testing locally
     },
   },
-preview: {
-  port: 5173,
-  host: "0.0.0.0",
-},
+
+  preview: {
+    port,
+    host: "0.0.0.0",
+  },
 });
