@@ -1,11 +1,6 @@
 {
-  "builds": [
-    {
-      "src": "artifacts/ambassador-car/package.json",
-      "use": "@vercel/static-build"
-    }
-  ],
-  "outputDirectory": "artifacts/ambassador-car/dist/public",
+  "version": 2,
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/(.*)",
